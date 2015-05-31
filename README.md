@@ -21,4 +21,4 @@ webrc -yt [query]                             Does an YouTube search
 webrc -i [query]                              Does a Google Images search
 
 ```
-Author: Ritvik Choudhary (twitter.com/ritvikc1512)
+Author: Ritvik Choudhary [Follow me!](twitter.com/ritvikc1512)
