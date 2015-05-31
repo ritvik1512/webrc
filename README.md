@@ -1,6 +1,7 @@
 webrc
 ===
 Search the web via the Command Line = minimal distraction (HelllYeah!)
+Demo: https://www.youtube.com/watch?v=ir2pVi0Yaew
 
 Features
 --------
@@ -20,6 +21,8 @@ Listen up, If you're not on OSX you need to have ```xdg-open``` installed.
 
 Usage
 -----
+Demo: https://www.youtube.com/watch?v=ir2pVi0Yaew
+
 The `gem install` establishes the command `webrc` which you can use, directly in your shell.
 
 ```sh
@@ -46,5 +49,11 @@ If you want to write code:
 3. Commit your changes (`git commit -am 'add some feature'`)
 4. Push to your branch (`git push origin my-slick-feature`)
 5. Create a new Pull Request
+
+### What's more?
+
++ More deeper and efficient integration into CLI, and probably eliminating the browser itself.
++ More native look and feel
++ Adding support for Reddit, HackerNews and ProductHunt!
 
 Author: Ritvik Choudhary twitter.com/ritvikc1512
