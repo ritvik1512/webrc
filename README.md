@@ -1,6 +1,6 @@
 webrc
 ===
-Search the web through the Command Line = ZERO Distraction (HelllYeah!)
+Search the web via the Command Line = minimal distraction (HelllYeah!)
 
 Installation
 ------------
