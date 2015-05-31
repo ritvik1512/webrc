@@ -1,13 +1,11 @@
-web
+webrc
 ===
------------------------------------
-
-Search the web through the Command Line = ZERO Distraction (HelllYeah!!!)
+Search the web through the Command Line = ZERO Distraction (HelllYeah!)
 
 Installation
 ------------
 ```sh
-gem install web
+gem install webrc
 ```
 Simple and sleek.
 
