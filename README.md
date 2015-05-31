@@ -35,6 +35,7 @@ webrc -so/--stack [query]                     Search on StackOverflow (HellYeah!
 webrc -wiki/--wikipedia [query]               Search Wikipedia
 webrc -yt [query]                             Does an YouTube search
 webrc -i [query]                              Does a Google Images search
+webrc -wa/--wolfram                           Search something on Wolfram Alpha
 
 ```
 ### Examples
