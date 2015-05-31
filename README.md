@@ -7,7 +7,7 @@ Installation
 ```sh
 gem install webrc
 ```
-Simple and sleek.
+Simple and sleek. (Version 1.0.1 right now.)
 
 Listen up, If you're not on OSX you need to have ```xdg-open``` installed.
 
