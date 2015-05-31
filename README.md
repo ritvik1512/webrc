@@ -1,7 +1,11 @@
 webrc
 ===
-Search the web via the Command Line = minimal distraction (HelllYeah!)
-Demo: https://www.youtube.com/watch?v=ir2pVi0Yaew
+<p align="center">
+Search the web via the Command Line = minimal distraction (HelllYeah!) </p>
+<p align="center">
+Demo: https://www.youtube.com/watch?v=ir2pVi0Yaew</p>
+<p align="center">
+Built in 2 hours. </p>
 
 Features
 --------
