@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # DEVELOPED BY RITVIK CHOUDHARY
+#There was a problem in version 1.0.0, and I've updated to version 1.0.1, so please update! :)
 system = `uname -s`
 @search = ARGV
 @query = ''
@@ -59,14 +60,6 @@ def search_wiki
   system "#{@open_command} http://www.wikipedia.org/w/index.php?search=\"#{@query}\""
 end
 
-def search_wolfram
-  @search.delete(@search.first)
-  @search.each do |word|
-    add_to_query(word)
-  end
-  system "#{@open_command} http://www.wolframalpha.com/input/?i=\"#{@query}\""
-end
-
 def add_to_query(word)
   if word == @search.last
     @query << word
@@ -77,19 +70,18 @@ end
 
 def usage
   puts <<-USAGE
- webrc - The internet at the doorstep of your Command Line!
+ web - The internet at the doorstep of your Command Line!
 
  Usage:
 
-   webrc [query]
-   webrc -i [query]
-   webrc -yt [query]
-   webrc -wiki/--wikipedia [query]
-   webrc -so/--stack [query]
-   webrc -wa/--wolfram [query]
+   web [query]
+   web -i [query]
+   web -yt [query]
+   web -wiki/--wikipedia [query]
+   web -so/--stack [query]
    
 
-   webrc -h/--help
+   web -h/--help
 
    USAGE
 end
@@ -103,8 +95,6 @@ when '-so', '--stack'
   search_stack
 when '-wiki', '--wikipedia'
   search_wiki
-when '-wa', '--wolfram'
-  search_wolfram
 when '-h', '--help', nil, '-'
   usage
 else

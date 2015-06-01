@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'webrc'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.executables << 'webrc'
   s.date        = '2015-05-31'
   s.summary     = "Internet search in the Command Line!"
