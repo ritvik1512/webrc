@@ -38,8 +38,13 @@ webrc -i [query]                              Does a Google Images search
 webrc -wa/--wolfram                           Search something on Wolfram Alpha
 
 ```
+Update
+------
+`$ gem update webrc`
+
+
 ### Examples
-To search Stack Overflow for How do I write HelloWorld in C++?;
+To search Stack Overflow for How do I write HelloWorld in C++?
 
     $ webrc -so How do I write HelloWorld in C++?
 
