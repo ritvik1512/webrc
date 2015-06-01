@@ -59,6 +59,14 @@ def search_wiki
   system "#{@open_command} http://www.wikipedia.org/w/index.php?search=\"#{@query}\""
 end
 
+def search_wolfram
+  @search.delete(@search.first)
+  @search.each do |word|
+    add_to_query(word)
+  end
+  system "#{@open_command} http://www.wolframalpha.com/input/?i=\"#{@query}\""
+end
+
 def add_to_query(word)
   if word == @search.last
     @query << word
@@ -78,6 +86,7 @@ def usage
    webrc -yt [query]
    webrc -wiki/--wikipedia [query]
    webrc -so/--stack [query]
+   webrc -wa/--wolfram [query]
    
 
    webrc -h/--help
@@ -94,6 +103,8 @@ when '-so', '--stack'
   search_stack
 when '-wiki', '--wikipedia'
   search_wiki
+when '-wa', '--wolfram'
+  search_wolfram
 when '-h', '--help', nil, '-'
   usage
 else
