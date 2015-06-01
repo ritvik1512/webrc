@@ -55,7 +55,7 @@ If you want to write code:
 4. Push to your branch (`git push origin my-slick-feature`)
 5. Create a new Pull Request
 
-### What's more?
+### What's more to come?
 
 + More deeper and efficient integration into CLI, and probably eliminating the browser itself.
 + More native look and feel
