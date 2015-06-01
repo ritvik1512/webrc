@@ -48,6 +48,10 @@ To search Stack Overflow for How do I write HelloWorld in C++?
 
     $ webrc -so How do I write HelloWorld in C++?
 
+#### Version
+Current- 1.0.2
+All- 1.0.0, 1.0.1, 1.0.2
+
 ## Contributing
 
 I <3 issue submissions, and will try to address your problem as quickly as possible!
