@@ -12,7 +12,7 @@ Features
 + Written entirely in Ruby
 + Works on OSX and Linux (Apple and Linus fans rejoice!)
 + Complete internet in the CLI
-+ Minimal Distraction = More Productivity
++ Minimal Distraction = More Productivity!
 
 Installation
 ------------
