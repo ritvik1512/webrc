@@ -13,6 +13,7 @@ Features
 + Works on OSX and Linux (Apple and Linus fans rejoice!)
 + Complete internet in the CLI
 + Minimal Distraction = More Productivity!
++ Plan to add a inbuilt browser support.
 
 Installation
 ------------
