@@ -5,11 +5,12 @@ Search the web via the Command Line = minimal distraction (HelllYeah!) </p>
 <p align="center">
 Demo: https://www.youtube.com/watch?v=ir2pVi0Yaew</p>
 <p align="center">
-Built in 2 hours. </p>
+Built in 2 hours. (Extremely simple) </p>
 
 Features
 --------
 + Written entirely in Ruby
++ Extremely simple script
 + Works on OSX and Linux (Apple and Linus fans rejoice!)
 + Complete internet in the CLI
 + Minimal Distraction = More Productivity!
