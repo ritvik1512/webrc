@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # DEVELOPED BY RITVIK CHOUDHARY
-#There was a problem in version 1.0.0, and I've updated to version 1.0.1, so please update! :)
+#There was a syntanx and UI problem in version 1.0.0, and I've updated to version 1.0.1, so please update ASAP.
+# More versions coming soon.
 system = `uname -s`
 @search = ARGV
 @query = ''
